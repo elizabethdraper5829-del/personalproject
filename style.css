@@ -1,0 +1,39 @@
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 20px auto;
+}
+img:hover {
+  transform: scale(1.05) rotate(2deg);
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: "Comic Sans MS", "Poppins", cursive;
+  background: linear-gradient(135deg, #ffe6f0, #e6f7ff, #fff7e6);
+  background-size: 400% 400%;
+  animation: bgFlow 12s ease infinite;
+  color: #444;
+}
+
+h1, h2 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+}
+img, button, .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+html {
+  scroll-behavior: smooth;
+}
+
